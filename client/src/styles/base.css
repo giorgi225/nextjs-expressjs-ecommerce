@@ -1,5 +1,12 @@
 @import url("./tailwind.css");
+/* NOTE 
+------- If a classname includes an underscore (_), it signifies a custom class.
+*/
 
 body {
   @apply bg-gray-50;
+}
+
+.container_main {
+  @apply w-full max-w-screen-xl mx-auto px-8 py-4;
 }
